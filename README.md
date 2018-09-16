@@ -109,3 +109,5 @@ name="filename"
     - python wrapper: [altair](https://altair-viz.github.io/)
 - Bad :(
     - plotting multiple line is troublesome
+
+![img](vega-lite_example.png)
