@@ -100,3 +100,12 @@ name="filename"
   - [LaTeX/Labels and Cross\-referencing \- Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/LaTeX/Labels_and_Cross-referencing)
 - use `\bm` for bold style vector like $\bm{a}$
   - [math mode \- Bold italic vectors \- TeX \- LaTeX Stack Exchange](https://tex.stackexchange.com/questions/14395/bold-italic-vectors)
+
+## [Vega\-Lite](https://vega.github.io/vega-lite-v1/)
+- Good :)
+    - All information necessary to plot is in *json*
+        - data, property, and so on 
+    - [Online vega-lite editor](https://vega.github.io/editor/#/examples/vega-lite/bar) 
+    - python wrapper: [altair](https://altair-viz.github.io/)
+- Bad :(
+    - plotting multiple line is troublesome
