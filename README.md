@@ -10,7 +10,7 @@ Any comment would be welcome!
   - remote repository, backup storage
 - Dropbox
   - local repository, backup storage
-- matplolib
+- matplolib + seaborn
 - [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html)
 - Inkscape
   - plot and log
