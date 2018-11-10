@@ -56,7 +56,7 @@ Any comment would be welcome!
 1. save svg and **pdf**
 
 - `\newcommand{\figwidth}{width}`
-  - for set figure width like `\includegraphics[width=\figwidth]{fig.pdf}`
+  - to set figure width like `\includegraphics[width=\figwidth]{fig.pdf}`
 - useful reference
   - [GUIDE TO PREPARING FIGURES FOR SCIENCE RESEARCH JOURNALS](http://www.sciencemag.org/sites/default/files/Figure_prep_guide.pdf)
 
