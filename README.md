@@ -13,7 +13,6 @@ Any comment would be welcome!
 - matplolib + seaborn
 - [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html)
 - Inkscape
-  - plot and log
 
 ## Overleaf
 
@@ -39,6 +38,8 @@ Any comment would be welcome!
   - for si unit
 - bm
   - for bold style vector
+- chemformula
+  - for chemical formula
 
 ### For Japanese
 
@@ -76,8 +77,11 @@ Any comment would be welcome!
 
 ```Jupyter
 name="filename"
+
 !mkdir {name}_layer
+
 !tar -xf {name}.tar -C {name}_layer
+
 ```
 
 ## Equation
@@ -88,11 +92,17 @@ name="filename"
 
 ```latex
 \begin{align}
+
     \begin{split}
+
         a &= b \\
+
         &=c \\
+
     \end{split}
+
 \end{align}
+
 ```
 
 - use `~`, non-breaking space for reference
@@ -102,12 +112,13 @@ name="filename"
   - [math mode \- Bold italic vectors \- TeX \- LaTeX Stack Exchange](https://tex.stackexchange.com/questions/14395/bold-italic-vectors)
 
 ## [Vega\-Lite](https://vega.github.io/vega-lite-v1/)
+
 - Good :)
-    - All information necessary to plot is in *json*
-        - data, property, and so on 
-    - [Online vega-lite editor](https://vega.github.io/editor/#/examples/vega-lite/bar) 
-    - python wrapper: [altair](https://altair-viz.github.io/)
+  - All information necessary to plot is in _json_
+    - data, property, and so on
+  - [Online vega-lite editor](https://vega.github.io/editor/#/examples/vega-lite/bar)
+  - python wrapper: [altair](https://altair-viz.github.io/)
 - Bad :(
-    - plotting multiple line is troublesome
+  - plotting multiple line is troublesome
 
 ![img](vega-lite_example.png)
